@@ -1,6 +1,8 @@
 import os
 
-root_dir = os.path.expanduser("~")
+# root_dir = os.path.expanduser("../")
+config_dir = os.path.dirname(os.path.abspath(__name__))
+root_dir = os.path.join(config_dir, '../dataset')
 
 #train_data_path = os.path.join(root_dir, "ptr_nw/cnn-dailymail-master/finished_files/train.bin")
 train_data_path = os.path.join(root_dir, "ptr_nw/cnn-dailymail-master/finished_files/chunked/train_*")

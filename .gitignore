@@ -1,2 +1,4 @@
 *.pyc 
 *.bin
+/dataset
+/.idea
